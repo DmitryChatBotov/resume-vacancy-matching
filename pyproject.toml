@@ -10,7 +10,18 @@ python = "3.10.*"
 gradio = "^4.8.0"
 notebook = "^7.0.6"
 pandas = "^2.1.4"
+python-dotenv = "^1.0.0"
+transformers = "^4.35.2"
+ydata-profiling = "^4.6.3"
+sentence-transformers = "^2.2.2"
+pymilvus = "^2.3.4"
 
+
+[tool.poetry.group.dev.dependencies]
+jupyterlab = "^4.0.9"
+kaggle = "^1.5.16"
+pandas = "^2.1.4"
+plotly = "^5.18.0"
 
 [build-system]
 requires = ["poetry-core"]
