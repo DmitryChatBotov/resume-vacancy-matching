@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "resume-vacancy-matching"
+version = "0.1.0"
+description = ""
+authors = ["Ildar Azamatov <ildar.azamatov.personal@gmail>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.*"
+gradio = "^4.8.0"
+notebook = "^7.0.6"
+pandas = "^2.1.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
