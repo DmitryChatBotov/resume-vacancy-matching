@@ -62,3 +62,12 @@ TBD
 
 ## Эксперименты
 TBD
+
+## Сравнение энкодеров
+| Модель | Accuracy |  Precision@10 | Recall@10 | F1@10 |
+| --- | --- | --- | --- | --- |
+| [intfloat/multilingual-e5-large](https://huggingface.co/intfloat/multilingual-e5-large)| 0.830 |  0.007 | 0.028 | 0.012 |
+| [sentence-transformers/paraphrase-multilingual-mpnet-base-v2](https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2)| 0.789 |  0.020 | 0.092 | 0.032 |
+| [sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2](https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2)| 0.762 |  0.025 | 0.122 | 0.040 |
+| [sentence-transformers/distiluse-base-multilingual-cased-v1](https://huggingface.co/sentence-transformers/distiluse-base-multilingual-cased-v1)| 0.803 |  0.012 | 0.070 | 0.020 |
+| [cointegrated/LaBSE-en-ru](https://huggingface.co/cointegrated/LaBSE-en-ru)| 0.735 |  0.035 | 0.180 | 0.057 |
