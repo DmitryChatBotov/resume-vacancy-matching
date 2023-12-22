@@ -15,6 +15,10 @@ transformers = "^4.35.2"
 ydata-profiling = "^4.6.3"
 sentence-transformers = "^2.2.2"
 pymilvus = "^2.3.4"
+spacy = "^3.7.2"
+bertopic = "^0.16.0"
+nltk = "^3.8.1"
+faiss-gpu = "^1.7.2"
 
 
 [tool.poetry.group.dev.dependencies]
@@ -22,6 +26,21 @@ jupyterlab = "^4.0.9"
 kaggle = "^1.5.16"
 pandas = "^2.1.4"
 plotly = "^5.18.0"
+nbdime = "^4.0.1"
+black = "^23.12.0"
+isort = "^5.13.2"
+nbqa = "^1.7.1"
+flake8 = "^6.1.0"
+torch = "^2.1.2"
+torchvision = "^0.16.2"
+torchaudio = "^2.1.2"
+bertopic = "^0.16.0"
+openai = "^1.6.1"
+rank-bm25 = "^0.2.2"
+sentence-transformers = "^2.2.2"
+transformers = "^4.36.2"
+nltk = "^3.8.1"
+pymystem3 = "^0.2.0"
 
 [build-system]
 requires = ["poetry-core"]
