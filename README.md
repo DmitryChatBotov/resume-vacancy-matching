@@ -58,12 +58,22 @@ NLP проект в рамках курса **Глубокое обучение 
   После этого у вас запустится Gradio приложение по адресу http://localhost:7860/
 
 ## Демо
-TBD
+- Введите желаемую должность, сколько лет опыта, ваши ключевые навыки и описание опыта работы.
+- Нажмите кнопку __Подобрать вакансии__
+- В течение 5 секунд вам выведется топ 5 вакансий под ваше резюме
+
+![image](https://github.com/DmitryChatBotov/resume-vacancy-matching/assets/41739221/e1622b08-68c6-4cc3-a00f-4c88b2bad0d7)
+
 
 ## Эксперименты
-TBD
+- FAISS search + Reranker (cross-encoder) - [/notebooks/experiments/faiss_reranker.ipynb](/notebooks/experiments/faiss_reranker.ipynb). Этот подход реализован в демо приложении
+- BM25 search + SBERT + Reranker (cross-encoder) - [/notebooks/experiments/bm25_sbert_ranking.ipynb](/notebooks/experiments/bm25_sbert_ranking.ipynb)
+- BerTopic - [/notebooks/experiments/bertopic.ipynb](/notebooks/experiments/bertopic.ipynb)
+- Milvus search - [/notebooks/experiments/baseline_milvus.ipynb](/notebooks/experiments/baseline_milvus.ipynb)
 
 ## Сравнение энкодеров
+Был собран датасет из 15 вакансий и 15 резюме, с помощью GPT-4 он был размечен на релевантность. Каждая вакансия с каждым резюме. На основе этого датасета и косинусной близости были просчитаны метрики работы энкодеров
+
 | Модель | Accuracy |  Precision@10 | Recall@10 | F1@10 |
 | --- | --- | --- | --- | --- |
 | [intfloat/multilingual-e5-large](https://huggingface.co/intfloat/multilingual-e5-large)| 0.830 |  0.175 | 0.124 | 0.145 |
