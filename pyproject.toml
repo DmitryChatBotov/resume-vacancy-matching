@@ -41,6 +41,9 @@ sentence-transformers = "^2.2.2"
 transformers = "^4.36.2"
 nltk = "^3.8.1"
 pymystem3 = "^0.2.0"
+tiktoken = "^0.5.2"
+openpyxl = "^3.1.2"
+
 
 [build-system]
 requires = ["poetry-core"]
