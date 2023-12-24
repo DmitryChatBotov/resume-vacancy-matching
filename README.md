@@ -69,7 +69,7 @@ NLP проект в рамках курса **Глубокое обучение 
 - FAISS search + Reranker (cross-encoder) - [/notebooks/experiments/faiss_reranker.ipynb](/notebooks/experiments/faiss_reranker.ipynb). Этот подход реализован в демо приложении
 - BM25 search + SBERT + Reranker (cross-encoder) - [/notebooks/experiments/bm25_sbert_ranking.ipynb](/notebooks/experiments/bm25_sbert_ranking.ipynb)
 - BerTopic - [/notebooks/experiments/bertopic.ipynb](/notebooks/experiments/bertopic.ipynb)
-- Milvus search - [/notebooks/experiments/baseline_milvus.ipynb](/notebooks/experiments/baseline_milvus.ipynb)
+- Milvus search - [/notebooks/experiments/baseline_milvus.ipynb](/notebooks/experiments/baseline_milvus.ipynb) (для запуска нужно запустить файл docker-compose.yaml, который поднимет базу для milvus)
 ### Метрики
 | Подход | F1 | Precision | Recall | TopK|
 | --- | --- | --- | --- | --- |
