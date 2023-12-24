@@ -70,6 +70,11 @@ NLP проект в рамках курса **Глубокое обучение 
 - BM25 search + SBERT + Reranker (cross-encoder) - [/notebooks/experiments/bm25_sbert_ranking.ipynb](/notebooks/experiments/bm25_sbert_ranking.ipynb)
 - BerTopic - [/notebooks/experiments/bertopic.ipynb](/notebooks/experiments/bertopic.ipynb)
 - Milvus search - [/notebooks/experiments/baseline_milvus.ipynb](/notebooks/experiments/baseline_milvus.ipynb)
+### Метрики
+| Подход | F1 | Precision | Recall | TopK|
+| --- | --- | --- | --- | --- |
+FAISS+Rerancer | 0.17 | 0.12 | 0.14 | 10 |
+
 
 ## Сравнение энкодеров
 Был собран датасет из 15 вакансий и 15 резюме, с помощью GPT-4 он был размечен на релевантность. Каждая вакансия с каждым резюме. На основе этого датасета и косинусной близости были просчитаны метрики работы энкодеров
