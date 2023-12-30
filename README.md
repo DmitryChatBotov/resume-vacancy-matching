@@ -15,6 +15,10 @@ NLP проект в рамках курса **Глубокое обучение 
 
 ## Начало работы
 
+### Требования к системе:
+- Linux: 20.04 и выше или Windows (10)
+- Cuda: 11.4 и выше. Проверено вплоть до версии 12.0
+
 ### Подготовка окружения
 
 - Устанавливаем `python 3.10`
@@ -64,7 +68,10 @@ NLP проект в рамках курса **Глубокое обучение 
 
 ![image](https://github.com/DmitryChatBotov/resume-vacancy-matching/assets/41739221/e1622b08-68c6-4cc3-a00f-4c88b2bad0d7)
 
-
+### Оценка производительность демо:
+ - RPS: 10
+ - Объем данных в базе вакансий: 1200+. Выбирали только IT вакансии. Ищем тоже собственно по IT вакансиям
+   
 ## Эксперименты
 - FAISS search + Reranker (cross-encoder) - [/notebooks/experiments/faiss_reranker.ipynb](/notebooks/experiments/faiss_reranker.ipynb). Этот подход реализован в демо приложении
 - BM25 search + SBERT + Reranker (cross-encoder) - [/notebooks/experiments/bm25_sbert_ranking.ipynb](/notebooks/experiments/bm25_sbert_ranking.ipynb)
